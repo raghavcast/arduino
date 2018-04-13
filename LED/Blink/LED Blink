@@ -3,6 +3,7 @@ int waitTime = 1000;  //Declaring the waitTime
 
 void setup() {
   Serial.begin(9600); // Starting up the Serial Monitor
+  pinMode(ledPin, OUTPUT);  //Setting ledPin to output
 }
 
 void loop() {
