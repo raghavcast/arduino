@@ -7,6 +7,6 @@ void setup() {
 
 void loop() {
   int sensorReading = analogRead(lightSense);
-  Serial.println(lightSense);
+  Serial.println(sensorReading);
   delay(10);
 }
